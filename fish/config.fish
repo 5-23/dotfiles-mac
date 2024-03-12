@@ -2,7 +2,7 @@ if status is-interactive
     # Commands to run in interactive sessions can go here
 end
 ~/.cargo/bin/zoxide init fish | source
-/opt/homebrew/bin/starship init fish | source
+starship init fish | source
 
 # init cargo and rust
 set -gx PATH "$HOME/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/bin/" $PATH;
@@ -19,7 +19,7 @@ set -gx PATH "$HOME/.local/bin/" $PATH;
 # set -x QT_QPA_PLATFORM wayland
 
 # variables
-set -fx EDITOR helix
+set -fx EDITOR hx
 set -gx QT_STYLE_OVERRIDE kvantum
 set -gx BAT_THEME Catppuccin-macchiato
 set -x STARSHIP_CONFIG ~/.config/starship/starship.toml 
