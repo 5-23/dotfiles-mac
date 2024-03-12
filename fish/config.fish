@@ -2,7 +2,6 @@ if status is-interactive
     # Commands to run in interactive sessions can go here
 end
 ~/.cargo/bin/zoxide init fish | source
-starship init fish | source
 
 # init cargo and rust
 set -gx PATH "$HOME/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/bin/" $PATH;
@@ -42,6 +41,10 @@ alias cd 'z'
 alias brew "/opt/homebrew/bin/brew"
 # remove greeting
 set -U fish_greeting
+
+
+
+starship init fish | source
 
 #random pokemon
 pkm --random --no-title
