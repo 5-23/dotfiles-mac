@@ -36,7 +36,7 @@ alias dir 'eza --icons -x'
 alias vi-off 'fish_default_key_bindings'
 alias vi-on 'fish_vi_key_bindings'
 alias cat 'bat -p'
-alias helix 'helix'
+alias helix 'hx'
 alias pkm 'python3 $HOME/.config/poke/poke.py'
 alias cd 'z'
 alias brew "/opt/homebrew/bin/brew"
