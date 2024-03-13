@@ -36,7 +36,7 @@ alias vi-on 'fish_vi_key_bindings'
 alias cat 'bat -p'
 alias helix 'hx'
 alias pkm 'python3 $HOME/.config/poke/poke.py'
-alias cd 'z'
+
 alias brew "/opt/homebrew/bin/brew"
 # remove greeting
 set -U fish_greeting
@@ -44,7 +44,7 @@ set -U fish_greeting
 
 
 starship init fish | source
-zoxide init fish | source
+
 #random pokemon
 pkm --random --no-title
 
