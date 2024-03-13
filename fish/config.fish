@@ -1,7 +1,6 @@
 if status is-interactive
     # Commands to run in interactive sessions can go here
 end
-~/.cargo/bin/zoxide init fish | source
 
 # init cargo and rust
 set -gx PATH "$HOME/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/bin/" $PATH;
@@ -45,7 +44,7 @@ set -U fish_greeting
 
 
 starship init fish | source
-
+zoxide init fish | source
 #random pokemon
 pkm --random --no-title
 
