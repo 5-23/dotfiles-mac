@@ -42,7 +42,7 @@ alias brew "/opt/homebrew/bin/brew"
 set -U fish_greeting
 
 
-
+zoxide init fish --cmd cd | source
 starship init fish | source
 
 #random pokemon
